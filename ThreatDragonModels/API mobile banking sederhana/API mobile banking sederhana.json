@@ -39,7 +39,10 @@
               "crossingFlows": [
                 "8b90c310-023d-4aa8-9ccc-cfdd52e27414",
                 "38db5bfa-c532-4971-88a1-1fac623c083d",
-                "c542b421-e164-497d-add0-fd58ab801bae"
+                "c542b421-e164-497d-add0-fd58ab801bae",
+                "841f67fa-ff8c-4887-a9bc-7439e0532815",
+                "ec1803d0-0331-4320-b12d-8ccfd50665b1",
+                "6b21edaf-8679-4dce-99a4-79774a000819"
               ],
               "containedElements": [
                 "dfc3a18c-14bb-4f00-b8b7-190e67339079",
@@ -96,7 +99,9 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "97a2acdc-77d3-46fa-8b21-ddba1f1ad0ef"
+                "97a2acdc-77d3-46fa-8b21-ddba1f1ad0ef",
+                "fcd14616-fe2a-4ca0-ad0c-fdbb5447841c",
+                "2b300930-ef94-41d8-8f48-aa1c964beb82"
               ],
               "containedElements": [
                 "aec4b1fe-9622-425c-a148-3d82c70f72ab",
@@ -125,7 +130,9 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [],
+              "crossingFlows": [
+                "1361480a-f0e9-4e44-8000-2f4222d92a0c"
+              ],
               "containedElements": [
                 "08ce54bb-190a-4d71-a25d-0a9c9185ab80"
               ]
@@ -1481,7 +1488,7 @@
               ]
             },
             "labels": [
-              "Val"
+              "D"
             ],
             "id": "97a2acdc-77d3-46fa-8b21-ddba1f1ad0ef",
             "source": {
@@ -1550,6 +1557,432 @@
               {
                 "x": 470,
                 "y": 70
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Permintaan Informasi ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "cee92c8e-ebf1-447c-b63d-f2223b25c44a"
+              ]
+            },
+            "labels": [
+              "Permintaan Informasi"
+            ],
+            "id": "841f67fa-ff8c-4887-a9bc-7439e0532815",
+            "source": {
+              "x": 240,
+              "y": 590
+            },
+            "target": {
+              "cell": "a8d09392-2127-4985-ba46-ca4d1cdb5361",
+              "port": "a4dfb4b5-4ddb-495e-9cc3-f9f7029818fa"
+            },
+            "vertices": [
+              {
+                "x": 120,
+                "y": 560
+              },
+              {
+                "x": 120,
+                "y": 240
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request Otorisasi\nTransaksi",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "b2cfc27f-b76c-4081-a9d3-d53d6443cd46"
+              ]
+            },
+            "labels": [
+              "Request Otorisasi\nTransaksi "
+            ],
+            "id": "fcd14616-fe2a-4ca0-ad0c-fdbb5447841c",
+            "source": {
+              "x": 376,
+              "y": 200
+            },
+            "target": {
+              "cell": "aec4b1fe-9622-425c-a148-3d82c70f72ab",
+              "port": "c7ef7586-8fe7-481a-8ab8-b4af0c4ad099"
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 120
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Riwayat Transaksi &\nInformasi Rekening ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Riwayat Transaksi &\nInformasi Rekening"
+            ],
+            "id": "3d3ed30c-62e6-4ae4-a9bd-38819837737b",
+            "source": {
+              "x": 310,
+              "y": 320
+            },
+            "target": {
+              "x": 240,
+              "y": 250
+            },
+            "vertices": [
+              {
+                "x": 200,
+                "y": 290
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Bukti Transaksi ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Bukti Transaksi"
+            ],
+            "id": "cf5a79c9-d03e-453d-b4c2-2a811a9123a9",
+            "source": {
+              "x": 380,
+              "y": 200
+            },
+            "target": {
+              "x": 370,
+              "y": 330
+            },
+            "vertices": [
+              {
+                "x": 406.25,
+                "y": 290
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Konfirmasi Transaksi ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "cee92c8e-ebf1-447c-b63d-f2223b25c44a"
+              ]
+            },
+            "labels": [
+              "Konfirmasi Transaksi"
+            ],
+            "id": "ec1803d0-0331-4320-b12d-8ccfd50665b1",
+            "source": {
+              "x": 570,
+              "y": 390
+            },
+            "target": {
+              "cell": "981e7f19-d022-4ac5-9f2a-f54222ed871c",
+              "port": "bf26ab3a-cffb-4d38-94e4-6574598b1657"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Simpan Data\nTransaksi ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "b2cfc27f-b76c-4081-a9d3-d53d6443cd46"
+              ]
+            },
+            "labels": [
+              "Simpan Data\nTransaksi"
+            ],
+            "id": "2b300930-ef94-41d8-8f48-aa1c964beb82",
+            "source": {
+              "x": 396,
+              "y": 410
+            },
+            "target": {
+              "cell": "db0ffd5e-a2ec-482b-81db-0c9f1a31ff9c",
+              "port": "39dcc48f-2919-402e-a574-2e1a633b6934"
+            },
+            "vertices": [
+              {
+                "x": 480,
+                "y": 430
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request\nKirim OTP ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "e5ebe99c-844a-4206-a988-48fb7d466757"
+              ]
+            },
+            "labels": [
+              "Request\nKirim OTP"
+            ],
+            "id": "1361480a-f0e9-4e44-8000-2f4222d92a0c",
+            "source": {
+              "x": 713,
+              "y": 585
+            },
+            "target": {
+              "cell": "08ce54bb-190a-4d71-a25d-0a9c9185ab80",
+              "port": "17e9aab4-06ed-4919-9e8d-971d57d0c39e"
+            },
+            "vertices": [
+              {
+                "x": 790,
+                "y": 550
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Simpan Catatan &\nAktivitas Pengguna ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "cee92c8e-ebf1-447c-b63d-f2223b25c44a"
+              ]
+            },
+            "labels": [
+              "Simpan Catatan &\nAktivitas Pengguna"
+            ],
+            "id": "6b21edaf-8679-4dce-99a4-79774a000819",
+            "source": {
+              "x": 560,
+              "y": 595
+            },
+            "target": {
+              "cell": "50b2b212-b4e3-4847-9c32-ee7c1f7b1e87",
+              "port": "bf26ab3a-cffb-4d38-94e4-6574598b1657"
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 570
               }
             ]
           }
